@@ -20,7 +20,8 @@ body{
 }
 .hero{
     height: 100vh;
-    background-color: var(--very-pale-cyan);  
+    background-color: var(--very-pale-cyan); 
+    background-image: url('../images/bg-hero-desktop.svg'); 
 }
 
 .nav{
@@ -213,3 +214,185 @@ footer img{
     cursor: pointer;
 }
 
+@media screen and (max-width: 400px) {
+    .hero{
+        background-color: var(--very-pale-cyan); 
+        background-image: url('../images/bg-hero-mobile.svg'); 
+        height: 100vh;
+    }
+    .nav{
+        padding: .5em;
+        display: flex;
+        align-items: center;
+    }
+    .nav img{
+        max-width: 30%;
+        padding: 1em;
+    }
+    .nav a{
+        
+        height: fit-content;
+        width: fit-content;
+        font-size: small;
+        padding: .5em 2em;
+    }
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2em;
+        margin-top: 3em;
+    }
+    .hero-content-text{
+        width: auto;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .hero-content-text h1{
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: .5em;
+    }
+    .hero-content-text p{
+        font-size: 1em;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: .5em;
+    }
+    .hero-content-text a{
+        text-decoration: none;
+        background-color: var(--pink);
+        color: white;
+        width: fit-content;
+        font-size: .7em;
+        font-weight: bold;
+        margin: 2em auto;
+        display: flex;
+        padding: 1em 4.5em;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-content img{
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .mid-section{
+        margin: 5em 0;
+    }
+    .img-container{
+        width: auto;
+        margin: 3em 1em;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0px 0px 9px -5px rgba(0, 0, 0, 0.36);
+        border-radius: 1em;
+    }
+    
+    .img-container img{
+        width: 100%;
+    }
+    
+    .img-container h2{
+        font-size: 1.4em;
+    }
+    .img-container p{
+        margin: 1em 0;
+        font-size: 1.1em;
+        word-spacing: .1em;
+    }
+    
+    .img-container-text{
+        width: fit-content;
+        padding-top: 2em;
+    }
+    .order{
+        order: 2;
+    }
+
+    .float-container{
+        background-color: white;
+        width: auto;
+        text-align: center;
+        margin: auto;
+        margin-top: 1em;
+        margin: 1em;
+        padding: 2em 0;
+        box-shadow: 0px 0px 30px -10px rgba(0, 0, 0, 0.36);
+        border-radius: 1em;
+        position: absolute;
+        top: -8em;
+        left: 0;
+        right: 0;
+    }
+    .float-container h1{
+        font-size: 1.1em;
+        color: black;
+    }
+    .float-container a{
+        text-decoration: none;
+        background-color: var(--pink);
+        color: white;
+        width: fit-content;
+        margin: auto;
+        margin-top: 1.5em;
+        padding: .9em 2em;
+        border-radius: 2em;
+        font-size: 1em;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer{
+        background-color: var(--very-dark-cyan);
+        color: white;
+        padding: 8em 2em;
+        padding-bottom: 1em;
+        margin-top: 20em;
+        position: relative;
+    }
+    footer img{
+        color: white;
+        padding-left: 0em;
+        padding-bottom: 2em;
+    }
+    .footer-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .d-flex{
+        display: flex;
+    }
+    
+    .footer-address{
+        width: auto;
+        padding-bottom: 2em;
+    }
+    
+    .footer-address div{
+       margin-bottom: 1em;
+    }
+    .about-us a{
+        color: white;
+        display: block;
+    }
+    .about-us a:hover{
+        text-decoration: underline;
+    }
+    .career a{
+        color: white;
+        display: block;
+    }
+    .icon{
+        margin: auto;
+        padding: 2em 0;
+    }
+}
