@@ -58,16 +58,16 @@ body{
 }
 
 .hero-content-text{
-    width: 30em;
+    width: 40em;
 }
 
 .hero-content-text h1{
-    font-size: 2.3em;
+    font-size: 3em;
     font-family: 'Poppins', sans-serif;
     margin-bottom: .5em;
 }
 .hero-content-text p{
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.8;
     margin-bottom: .5em;
 }
