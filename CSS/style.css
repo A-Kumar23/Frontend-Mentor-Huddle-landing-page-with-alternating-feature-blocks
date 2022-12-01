@@ -220,7 +220,7 @@ footer img{
     cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .hero{
         background-color: var(--very-pale-cyan); 
         background-image: url('../images/bg-hero-mobile.svg'); 
