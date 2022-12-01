@@ -204,6 +204,12 @@ footer img{
 .me{
     margin-right: 1em;
 }
+.icon-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
 
 .icon i{
     font-size: 2em;
@@ -394,5 +400,9 @@ footer img{
     .icon{
         margin: auto;
         padding: 2em 0;
+    }
+    .icon-set p{
+        font-size: .8em;
+        text-align: center;
     }
 }
