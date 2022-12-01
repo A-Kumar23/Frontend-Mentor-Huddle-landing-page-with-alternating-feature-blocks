@@ -93,10 +93,10 @@ body{
     margin: 10em 0;
 }
 .img-container{
-    width: 80em;
+    width: 100em;
     margin: auto;
     margin-bottom: 5em;
-    padding: 5em;
+    padding: 5em 0em;
     display: flex;
     justify-content: space-around;
     align-items: center;
